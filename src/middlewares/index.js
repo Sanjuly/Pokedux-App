@@ -1,0 +1,12 @@
+export const logger = (store) => (next) => (action) => {
+    console.log('dispatching', action) // Logs the dispatched action
+    next(action)
+}
+
+//export const featuring = (store) => (next) => (actionInfo) => {
+//    const featured = [{ name: 'eddie'}, ...actionInfo.action.payload] 
+//    const updateActionInfo = {...actionInfo, 
+//        action: {...actionInfo.action, payload: featured},
+//    }
+//    return next(updateActionInfo)
+//}

@@ -1,0 +1,12 @@
+.button {
+    color: #934ACC;
+    border: 2px solid #934ACC;
+}
+.button:hover {
+    background-color: #934ACC;
+}
+.card-type {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
