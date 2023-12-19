@@ -31,7 +31,7 @@ function App() {
       <Col span={10} offset={6}>
         <img src={logo} alt='Pokedux' className='app-img'/>
       </Col>
-      <Col span={10} offset={6}>
+      <Col span={12} offset={6}>
         <Search />
       </Col>
       {loading ? (
